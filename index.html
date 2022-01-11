@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>6 google_form_liff 3</title>
+    <title>7 google_form_liff 3</title>
   </head>
    
   <body>
@@ -11,7 +11,7 @@
     <script>
       async function getUserProfile() {
         const profile = await liff.getProfile();
-        window.location.replace(`https://fooddaliverysskh.web.app/#${profile.userId}#${profile.displayName}#${profile.pictureUrl}`);
+        window.location.replace(`https://fooddaliverysskh.web.app/#/${profile.userId}#${profile.displayName}#${profile.pictureUrl}`);
       }
       async function main() {
         await liff.init({ liffId: "1656796899-6VYzy4xG" });
